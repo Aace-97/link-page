@@ -6,10 +6,21 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 a {
     color: #fff;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 .btn-container {
