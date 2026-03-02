@@ -32,9 +32,11 @@ a {
 }
 
 .btn {
-    width: 150px;
-    text-align: center;
-    display: inline-block;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 12px;
     padding: 12px 40px;
     border-inline-end: 1px solid #fff;
     border-radius: 5px;
@@ -48,4 +50,13 @@ a {
 .btn:hover {
     background-color: #ddd;
     transition: background-color 0.3s;
+}
+
+.btn-text {
+    display: flex;
+    flex-direction: column;
+}
+.btn-desc {
+    font-size: 12px;
+    opacity: 0.7
 }
